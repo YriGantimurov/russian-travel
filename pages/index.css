@@ -96,9 +96,13 @@
     color: #FFFFFF;
 }
 
+.place__link:hover {
+    opacity: 0.8;
+}
+
 .place__website {
     grid-column: 2;
     grid-row: 1;
-    margin: 0 0 48px 0;
+    margin: 0 0 48px 40px;
     align-self: end;
 }
