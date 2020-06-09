@@ -1,5 +1,39 @@
+@import url(../blocks/fonts/index.css);
 @import url(../blocks/body/index.css);
 @import url(../blocks/header/index.css);
 @import url(../blocks/page/index.css);
 
+.lead {
+    margin: 0;
+    padding: calc(136px - 80px) 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
 
+.lead__title {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    width: 720px;
+    text-align: center;
+}
+
+.lead__subtitle {
+    margin: 32px 0 0 0;
+    padding: 0;
+    width: 640px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    
+    text-align: center;
+}
