@@ -1,7 +1,9 @@
 @import url(../blocks/fonts/index.css);
 @import url(../blocks/body/index.css);
 @import url(../blocks/header/index.css);
+@import url(../blocks/main/index.css);
 @import url(../blocks/page/index.css);
 @import url(../blocks/lead/index.css);
 @import url(../blocks/intro/index.css);
+@import url(../blocks/photo-grid/index.css);
 /**/
