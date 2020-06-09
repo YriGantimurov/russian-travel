@@ -10,3 +10,63 @@
 @import url(../blocks/place/index.css);
 @import url(../blocks/places/index.css);
 /**/
+
+.cover {
+    margin: 92px auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    min-width: auto;
+}
+.cover__title {
+    top: 0;
+    left: 0;
+    margin: 245px;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    position: absolute;
+}
+
+.cover__subtitle {
+    width: 360px;
+    margin: 429px;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    position: absolute;
+}
+
+.cover__overlay {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2C2F;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+.cover__background {
+    position: relative;
+    background-image: url(../images/__background.jpg);
+    margin: 0;
+    padding: 0;
+    width: 1184px;
+    height: 740px;
+    background-size: cover;
+}
+
+.cover__overlay:hover {
+    opacity: .8;
+}
