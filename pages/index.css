@@ -12,6 +12,7 @@
 /**/
 
 .cover {
+    position: relative;
     margin: 92px auto;
     padding: 0;
     display: flex;
@@ -22,30 +23,43 @@
     min-width: auto;
 }
 .cover__title {
-    top: 0;
-    left: 0;
-    margin: 245px;
+    margin: 0;
+    max-width: 560px;
     padding: 0;
+
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
+
+    z-index: 2;
     position: absolute;
+    top: 245px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .cover__subtitle {
-    width: 360px;
-    margin: 429px;
+    max-width: 360px;
     padding: 0;
+    margin: 0;
+
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+
+    z-index: 2;
     position: absolute;
+    bottom: 245px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .cover__overlay {
@@ -55,10 +69,12 @@
     width: 100%;
     height: 100%;
     opacity: .3;
+
+    position: absolute;
+    z-index: 0;
 }
 
 .cover__background {
-    position: relative;
     background-image: url(../images/__background.jpg);
     margin: 0;
     padding: 0;
@@ -68,5 +84,13 @@
 }
 
 .cover__overlay:hover {
+    opacity: .8;
+}
+
+.cover__title:hover ~ .cover__overlay {
+        opacity: .8;
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
     opacity: .8;
 }
