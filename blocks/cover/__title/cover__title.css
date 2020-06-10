@@ -12,7 +12,7 @@
 
     z-index: 2;
     position: absolute;
-    top: 245px;
+    top: calc((100% - 250px)/2);;
     left: 0;
     right: 0;
     margin: auto;
