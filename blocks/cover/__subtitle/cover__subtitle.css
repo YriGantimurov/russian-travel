@@ -9,6 +9,7 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    color: white;
 
     z-index: 2;
     position: absolute;
@@ -20,4 +21,12 @@
 
 .cover__subtitle:hover ~ .cover__overlay {
     opacity: .8;
+}
+
+@media screen and (max-width: 650px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        bottom: calc((100% - 134px)/2);
+    }
 }

@@ -17,3 +17,20 @@
     margin-right: 48px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .header__lang-link:last-of-type {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 30px 18px 0 0;
+    }
+    .header__lang-link:last-of-type {
+        margin-right: 16px;
+    }
+}

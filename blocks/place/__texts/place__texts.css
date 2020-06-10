@@ -5,3 +5,22 @@
     margin: 0 0 0 40px;
     padding: 0;
 }
+
+@media screen and (max-width: 1024px){
+    .place__texts {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__texts {
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .place__texts {
+        margin: 32px 0 0 0;
+        padding: 0;
+    }
+}

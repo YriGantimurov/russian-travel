@@ -4,3 +4,17 @@
     display: flex;
     justify-content: flex-start;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 0 24px 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer {
+        margin: 0 auto 24px 16px;
+        flex-direction: column;
+        width: 186px;
+    }
+}

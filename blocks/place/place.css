@@ -1,6 +1,13 @@
 .place {
     display: grid;
-    grid-template-columns: minmax(460px, max-content) fit-content(460px);
+    grid-template-columns: minmax(min-content, max-content) fit-content(460px);
     grid-template-rows: repeat(2, fit-content(400px));
     justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+    }
 }

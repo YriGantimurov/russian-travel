@@ -6,3 +6,17 @@
 .places__item:first-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 650px) {
+    .places__item {
+        margin: 0 0 48px 0;
+    }
+
+    .places__item:last-of-type {
+        margin: 0;
+    }
+
+    .places__item:first-of-type {
+        margin: 0 0 48px 0;
+    }
+}

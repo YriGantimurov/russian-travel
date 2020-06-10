@@ -4,3 +4,21 @@
     margin: 0 0 48px 40px;
     align-self: end;
 }
+
+@media screen and (max-width: 1024px){
+    .place__website {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .place__website {
+        display: none;
+    }
+}

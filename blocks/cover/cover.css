@@ -8,3 +8,15 @@
     max-width: 1184px;
     overflow: hidden;
 }
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 88px 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cover {
+        margin: 64px 0;
+    }
+}
