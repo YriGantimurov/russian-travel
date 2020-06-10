@@ -1,9 +1,10 @@
 .lead {
-    margin: 0 auto;
-    padding: calc(136px - 80px) 0 0 0;
+    margin: calc(136px - 80px) auto 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 984px;
-    align-self: flex-start;
+    overflow: hidden;
 }
+
