@@ -17,10 +17,8 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
-    min-height: auto;
-    min-width: auto;
 }
 .cover__title {
     margin: 0;
@@ -75,13 +73,12 @@
 }
 
 .cover__background {
-    background-image: url(../images/__background.jpg);
     margin: 0;
     padding: 0;
-    width: 1184px;
-    height: 740px;
-    background-size: cover;
+    max-width: 1184px;
 }
+
+.w1184{}
 
 .cover__overlay:hover {
     opacity: .8;
