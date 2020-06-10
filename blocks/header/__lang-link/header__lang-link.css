@@ -14,5 +14,6 @@
 }
 
 .header__lang-link:last-of-type {
-    padding-right: 48px;
+    margin-right: 48px;
+    text-decoration: none;
 }
