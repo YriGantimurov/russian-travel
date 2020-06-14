@@ -10,23 +10,11 @@
     line-height: 76px;
     text-align: center;
     color: white;
-
-    z-index: 2;
-    position: absolute;
-    top: calc((100% - 250px)/2);;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.cover__title:hover ~ .cover__overlay {
-    opacity: .8;
 }
 
 @media screen and (max-width: 650px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        top: calc((100% - 134px)/2);
     }
 }

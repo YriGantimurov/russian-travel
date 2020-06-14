@@ -1,5 +1,12 @@
+@import url(./cover.css);
+@import url(./__background/cover__background.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+@import url(./__texts/cover__texts.css);
+
 .cover {
-    position: relative;
     margin: 92px auto;
     padding: 0;
     display: flex;
@@ -7,6 +14,7 @@
     align-items: center;
     max-width: 1184px;
     overflow: hidden;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {

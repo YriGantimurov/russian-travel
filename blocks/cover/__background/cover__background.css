@@ -1,5 +1,28 @@
 .cover__background {
     margin: 0;
     padding: 0;
+    z-index: 1;
     width: 100%;
+    grid-row: 1;
+    grid-column: 1;
 }
+/*
+@media screen and (max-width: 1024px){
+    .cover__background {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cover__background {
+        height: 200px;
+    }
+}
+
+*/
