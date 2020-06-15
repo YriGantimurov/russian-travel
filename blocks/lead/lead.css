@@ -11,7 +11,6 @@
     flex-direction: column;
     align-items: center;
     max-width: 984px;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px){
@@ -23,13 +22,6 @@
 
 @media screen and (max-width: 768px) {
     .lead {
-        margin-top: 48px;
         padding: 0; 
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .lead {
-        margin-top: 48px;
     }
 }

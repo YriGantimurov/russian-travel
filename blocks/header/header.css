@@ -1,5 +1,5 @@
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/_lang/header__lang-link_lang_en.css);
+@import url(./__lang-link/_underline/header__lang-link_underline_active.css);
 @import url(./__logo/header__logo.css);
 
 .header {
@@ -7,3 +7,4 @@
     margin: 0;
     padding: 0;
 }
+

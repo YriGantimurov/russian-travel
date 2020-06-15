@@ -11,10 +11,15 @@
     text-align: right;
 
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
     opacity: .8;
+}
+
+.header__lang-link:last-of-type {
+    margin-right: 48px;
 }
 
 @media screen and (max-width: 768px) {
